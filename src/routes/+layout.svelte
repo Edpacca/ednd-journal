@@ -27,14 +27,10 @@
 </nav>
 <main>
     <div class="corners">
-        <Corner position="top-left" colour="yellow"/>
-        <Corner position="top-right" colour="red"/>
-        <Corner position="bottom-left" colour="green"/>
-        <Corner position="bottom-right" colour="blue"/>
-        <Bar position="top" colour="yellow"/>
-        <Bar position="right" colour="red"/>
-        <Bar position="left" colour="green"/>
-        <Bar position="bottom" colour="blue"/>
+        <Corner position="top-left" colour="burlywood"/>
+        <Corner position="top-right" colour="burlywood"/>
+        <Corner position="bottom-left" colour="burlywood"/>
+        <Corner position="bottom-right" colour="burlywood"/>
     </div>
     <div class="content">
         <slot></slot>
@@ -74,12 +70,13 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        /* opacity: 0.4; */
+        opacity: 0.4;
         z-index: -1;
     }
 
     .content {
         padding: var(--default-padding);
+        text-align: center;
     }
 
     footer {

@@ -1,10 +1,14 @@
-<!-- <h1>Edpacca's Isle of Murraka</h1>
+<script>
+    import Button from "../components/common/Button.svelte";
+
+</script>
+<h1>Edpacca's Isle of Murraka</h1>
 
 <div>
     this is where it's at
 </div>
 
 <div>
-    <button>Player</button>
-    <button>Visitor</button>
-</div> -->
+    <Button content="player"/>
+    <Button content="visitor"/>
+</div>
