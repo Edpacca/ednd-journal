@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: "Charm";
+    src: url("/fonts/Charm/Charm-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Charm";
+    src: url("/fonts/Charm/Charm-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url();
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("/fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("/fonts/Cinzel_Decorative/CinzelDecorative-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("/fonts/Cinzel_Decorative/CinzelDecorative-Black.ttf");
+    font-weight: bolder;
+}
+
+
+@font-face {
+    font-family: "RobotoCondensed";
+    src: url("/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "RobotoCondensed";
+    src: url("/fonts/Roboto_Condensed/RobotoCondensed-Italic.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "RobotoCondensed";
+    src: url("/fonts/Roboto_Condensed/RobotoCondensed-Light.ttf");
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "RobotoCondensed";
+    src: url("/fonts/Roboto_Condensed/RobotoCondensed-LightItalic.ttf");
+    font-weight: light;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "RobotoCondensed";
+    src: url("/fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "RobotoCondensed";
+    src: url("/fonts/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}

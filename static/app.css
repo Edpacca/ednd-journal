@@ -1,7 +1,55 @@
+:root {
+    --primary: brown;
+    --secondary: burlywood;
+    --accent: goldenrod;
+    
+    --primary-50: rgba(165, 42, 42, 0.5);
+    --secondary-50: rgba(222, 184, 135, 0.5);
+
+    --navbar-height: 32px;
+    --footer-height: 64px;
+    
+    --default-padding: 8px;
+    --corner-padding: 16px;
+
+    --border-width: 2px;
+    --border-radius: 8px;
+
+    --default-spacing: 8px;
+
+    --background-url: url("/background/water-parchment.webp");
+}
+
 body {
     margin: 0;
     height: 100%;
     width: 100%;
-    display: contents;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "RobotoCondensed", Times, serif;
 }
+
+html, .body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+h1, h2 {
+    font-family: "Cinzel";
+    font-weight: bolder;
+}
+
+h3 {
+    font-family: "Charm";
+    font-weight: bold;
+}
+
+.button-menu {
+    display: flex;
+    flex-direction: column;
+    width: min(25vw, 25vh);
+    margin: auto;
+    row-gap: var(--default-spacing);
+}
+
+
