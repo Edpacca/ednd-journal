@@ -2,6 +2,8 @@
     --primary: brown;
     --secondary: burlywood;
     --accent: goldenrod;
+    --primary-50: rgba(165, 42, 42, 0.5);
+    --secondary-50: rgba(222, 184, 135, 0.5);
     
     --white: antiquewhite;
     --black: rgb(30, 30, 30);
@@ -13,8 +15,15 @@
     --super-dark-grey: rgb(19, 19, 19);
     --dark-grey-90: rgba(37, 38, 39, 0.9);
     
-    --primary-50: rgba(165, 42, 42, 0.5);
-    --secondary-50: rgba(222, 184, 135, 0.5);
+    --green: rgb(88, 180, 45);
+    --green-50: rgba(80, 182, 36, 0.5);
+    --dark-green: rgb(35, 77, 17);
+
+    --red: rgb(220, 15, 45);
+    --red-50: rgba(220, 15, 45, 0.5);
+    --dark-red: rgb(94, 5, 18);
+
+    --gold: goldenrod;
 
     --navbar-height: 32px;
     --footer-height: 64px;

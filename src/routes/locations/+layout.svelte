@@ -4,12 +4,18 @@
     export let data: LayoutData;
 </script>
 
-<h1>Locationz</h1>
-
+<h1>Locations</h1>
+<slot></slot>
 <div class="submenu">
-{#each data.sections as section}
-    <a href="/locations/{section.slug}">{section.title}</a>
-{/each}
+    {#each data.sections as section}
+        <a href="/locations/{section.slug}">{section.title}</a>
+    {/each}
 </div>
 
-<slot></slot>
+
+<style>
+    .submenu {
+        display: grid;
+        text-align: left;
+    }
+</style>
