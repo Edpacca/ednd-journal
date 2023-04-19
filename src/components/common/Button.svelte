@@ -4,28 +4,25 @@
 </script>
 
 <button on:click={onClick}>
-    <div class="content">{content}</div>
+    {content}
 </button>
 
 <style>
     button {
-        padding: 1.5em 3em;
-        background: transparent;
+        padding: 8px 16px;
+        background: var(--primary-50);
+        color: var(--accent);
         border: none;
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url("/textures/stone-texture.webp");
-        background-size: 500px;
-        clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0 50%);
+        font-family: "Cinzel";
+        font-size: 1.2em;
+        border-radius: 0 var(--border-radius);
     }
 
-    .content {
-        color: rgb(255, 225, 149);
-        filter: drop-shadow(1px 1px 2px orange);
-        font-family: "Cinzel Decorative";
-        font-weight: bold;
-        font-size: 2em;
+    button:hover {
+        background: var(--primary);
     }
 </style>
