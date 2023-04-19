@@ -1,13 +1,9 @@
 <script>
     import BackgroundBorder from "../components/graphics/decoration/BackgroundBorder.svelte";
+    import Nav from "../components/nav/Nav.svelte";
 </script>
 
-<nav>
-    <a href="/" class="nav-link">Home</a>
-    <a href="/locations" class="nav-link">Locations</a>
-    <a href="/npcs" class="nav-link">NPCs</a>
-    <a href="/journal" class="nav-link">Journal</a>
-</nav>
+<Nav/>
 <main>
     <BackgroundBorder colour="burlywood" opacity={0.4}/>
     <div class="content">
@@ -20,19 +16,6 @@
 
 
 <style>
-    nav {
-        height: var(--navbar-height);
-        display: flex;
-        column-gap: 16px;
-        align-items: center;
-        justify-content: center;
-
-        background-color: var(--secondary);
-        color: var(--primary);
-        border-bottom: var(--border-width) solid brown;
-        font-size: 1.2rem;
-        font-weight: bold;
-    }
 
     main {
         position: relative;
