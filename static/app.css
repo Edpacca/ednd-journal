@@ -3,6 +3,16 @@
     --secondary: burlywood;
     --accent: goldenrod;
     
+    --white: antiquewhite;
+    --black: rgb(30, 30, 30);
+
+    --light-grey: rgb(150, 150, 150);
+    --mid-grey: rgb(85, 85, 85);    
+    --grey: rgb(50, 50, 50);
+    --dark-grey: rgb(37, 38, 39);
+    --super-dark-grey: rgb(19, 19, 19);
+    --dark-grey-90: rgba(37, 38, 39, 0.9);
+    
     --primary-50: rgba(165, 42, 42, 0.5);
     --secondary-50: rgba(222, 184, 135, 0.5);
 
@@ -34,6 +44,20 @@ html, .body {
     width: 100%;
 }
 
+/* Colours */
+.primary {
+    color: var(--primary);
+}
+
+.secondary {
+    color: var(--secondary);
+}
+
+.accent {
+    color: var(--accent);
+}
+
+/* Text */
 h1, h2 {
     font-family: "Cinzel";
     font-weight: bolder;
@@ -44,6 +68,7 @@ h3 {
     font-weight: bold;
 }
 
+/* Layout */
 .button-menu {
     display: flex;
     flex-direction: column;
