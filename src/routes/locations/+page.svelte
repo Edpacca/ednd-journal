@@ -5,8 +5,8 @@
 
 <div>
     {#if $userType === UserType.PLAYER}
-        Here are all the places you have visited so far. If any are missing be sure to let your DM know.
+        <p>Here are all the places you have visited so far. If any are missing be sure to let your DM know.</p>
     {:else}
-        Here are the general locations that can be found upon the Isle of Murraka.
+       <p>Here are the general locations that can be found upon the Isle of Murraka.</p>
     {/if}
 </div>
