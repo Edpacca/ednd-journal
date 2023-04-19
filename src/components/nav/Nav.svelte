@@ -1,5 +1,12 @@
 <script>
-    import { currentCampaign, userType } from "../../state/store";
+    import { UserType } from "$lib/types";
+import { currentCampaign, userType } from "../../state/store";
+    import XButton from "../common/XButton.svelte";
+
+    const resetUser = () => {
+        $userType = undefined;
+        $currentCampaign = "";
+    }
 </script>
 
 <nav>
@@ -11,6 +18,7 @@
     <div class="user-info">
         {#if $currentCampaign}
             <h3 class="primary">{$currentCampaign}</h3>
+            <XButton onClick={resetUser} />
         {:else if $userType}
             <div>viewing as</div>
             <select bind:value={$userType}>
