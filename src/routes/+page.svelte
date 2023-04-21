@@ -2,7 +2,7 @@
     import Button from "../components/common/Button.svelte";
     import { UserType } from "../lib/types";
     import { getCampaigns } from "../server/dummyServer";
-    import { currentCampaign, userType } from "../state/store";
+    import { currentCampaign, userType } from "../stores/store";
 
     const setUserType = (userType: UserType) => {
         $userType = userType;

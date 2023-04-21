@@ -7,7 +7,7 @@
 <main>
     <BackgroundBorder colour="burlywood" opacity={0.4}/>
     <div class="content">
-        <slot></slot>
+        <slot/>
     </div>
 </main>
 <footer>
@@ -20,12 +20,15 @@
     main {
         position: relative;
         flex: auto;
+        z-index: 0;
         background: var(--background-url);
     }
-
+    
     .content {
         padding: var(--default-padding);
         text-align: center;
+        z-index: 2;
+        position: relative;
     }
 
     footer {
