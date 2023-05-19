@@ -65,4 +65,9 @@
     option {
         color: var(--grey)
     }
+
+    a {
+        color: brown;
+        text-decoration: none;
+    }
 </style>

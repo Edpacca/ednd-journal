@@ -3,5 +3,7 @@
 	export let data: PageData;
 </script>
 
-<h1>{data.journal.title}</h1>
-<div>{data.journal.content}</div>
+<div class="parchment">
+    <h1>{data.journal.title}</h1>
+    <div class="text">{data.journal.content}</div>
+</div>

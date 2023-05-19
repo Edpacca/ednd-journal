@@ -3,11 +3,16 @@
     import type { LayoutData } from "./$types";
     export let data: LayoutData
 </script>
-<Sidebar>
-    <ul>
-        {#each data.summaries as { slug, title }}
-            <li><a href={`/journals/${slug}`}>{title}</a></li>
-        {/each}
-    </ul>
-</Sidebar>
-<slot/>
+
+<div class="content-sidebar">
+    <Sidebar>
+        <ul>
+            {#each data.summaries as { slug, title }}
+                <li><a href={`/journal/${slug}`}>{title}</a></li>
+            {/each}
+        </ul>
+    </Sidebar>
+    <div class="content">
+        <slot/>
+    </div>
+</div>

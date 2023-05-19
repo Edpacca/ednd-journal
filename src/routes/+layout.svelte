@@ -1,14 +1,13 @@
 <script>
     import BackgroundBorder from "$lib/components/graphics/decoration/BackgroundBorder.svelte";
     import Nav from "$lib/components/nav/Nav.svelte";
+    import Sidebar from "$lib/components/sidebar/Sidebar.svelte";
 </script>
 
 <Nav/>
 <main>
     <BackgroundBorder colour="burlywood" opacity={0.4}/>
-    <div class="content">
-        <slot/>
-    </div>
+    <slot/>
 </main>
 <footer>
     <h2>Edpacca's Isle of Murraka</h2>
@@ -24,13 +23,7 @@
         background: var(--background-url);
     }
     
-    .content {
-        padding: var(--default-padding);
-        text-align: center;
-        z-index: 2;
-        position: relative;
-        height: 100%;
-    }
+
 
     footer {
         display: flex;
