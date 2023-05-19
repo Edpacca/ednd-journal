@@ -1,5 +1,5 @@
 <script>
-    import { currentCampaign, userType } from "../../stores/store";
+    import { currentCampaign, userType } from "../../../stores/store";
     import XButton from "../common/XButton.svelte";
 
     const resetUser = () => {
