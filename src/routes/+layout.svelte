@@ -1,6 +1,6 @@
 <script>
-    import BackgroundBorder from "../components/graphics/decoration/BackgroundBorder.svelte";
-    import Nav from "../components/nav/Nav.svelte";
+    import BackgroundBorder from "$lib/components/graphics/decoration/BackgroundBorder.svelte";
+    import Nav from "$lib/components/nav/Nav.svelte";
 </script>
 
 <Nav/>
@@ -29,6 +29,7 @@
         text-align: center;
         z-index: 2;
         position: relative;
+        height: 100%;
     }
 
     footer {
@@ -37,7 +38,7 @@
         justify-content: center;
         height: var(--footer-height);
         padding: 1rem;
-
+        z-index: 3  ;
         background-color: var(--secondary);
         border-top: var(--border-width) solid var(--primary);
     }

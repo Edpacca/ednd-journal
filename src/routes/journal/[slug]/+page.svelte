@@ -1,9 +1,7 @@
 <script lang="ts">
-    export let data: {
-        page: string
-    };
+    import type { PageData } from "./$types";
+	export let data: PageData;
 </script>
 
-<a href="/locations">back</a>
-
-{@html data.page}
+<h1>{data.journal.title}</h1>
+<div>{data.journal.content}</div>
