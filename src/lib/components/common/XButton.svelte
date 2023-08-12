@@ -1,11 +1,11 @@
 <script lang="ts">
-    import Fa from "svelte-fa/src/fa.svelte";
-    import { faXmark } from "@fortawesome/free-solid-svg-icons";
+    import FaIcon from "./FaIcon.svelte";
+
     export let onClick: () => void; 
 </script>
 
 <button on:click={onClick}>
-    <Fa icon={faXmark}/>
+    <FaIcon icon={"faXmark"}/>
 </button>
 
 <style>
